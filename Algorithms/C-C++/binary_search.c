@@ -44,7 +44,7 @@ int main() {
     int number;
 
     for (int i = 0; i < N; i++) {
-        printf("Input different a numbers: ");
+        printf("Enter different a numbers: ");
         scanf("%d", &array[i]);
     }
 
@@ -54,7 +54,7 @@ int main() {
     /* In order to get the binary search, the array must be sorted */
     bubbleSort(array);
 
-    printf("Input the number you want to find: ");
+    printf("Enter the number you want to find: ");
     scanf("%d", &number);
 
     printf("The number is: %d\n", binarySearch(array, number));
