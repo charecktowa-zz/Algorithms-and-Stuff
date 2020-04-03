@@ -3,13 +3,13 @@
 int main() {
 
     int number;
-    long double factorial, euler = 0.0;
+    long double factorial, euler = 1.0;
 
     printf("Input a number: ");
     scanf("%d", &number);
 
-    int counter = 0;
-    while (counter < number) {
+    int counter = 1;
+    while (counter <= number) {
         // factorial
         factorial = 1;
         int anotherCounter = counter;
